@@ -64,10 +64,10 @@ ul {
 }
 
 .main-title{
-  
-  margin: 100px auto;
+    
+  margin: 50px auto;
   border: 2px solid black;
-  padding: 10px 20px;
+  padding: 10PX 20px;
   font-size: 30px;
   width: fit-content;
   position: relative;
@@ -85,6 +85,7 @@ ul {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  left: -30px;
 }
 .main-title::after{
   content: "";
@@ -96,26 +97,9 @@ ul {
  
   top: 50%;
   transform: translateY(-50%);
-}
-.main-title::after{
   right: -30px;
 }
-  .main-title::before{
- left: -30px;
-}
-.main-title:hover::before{
-  z-index: -1;
-  animation: left-move 0.5s linear forwards;
-}
-.main-title:hover::after{
-  z-index: -1;
-  animation: right-move 0.5s linear forwards;
-}
-.main-title:hover{
-  color: white;
-  border: 2px solid white;
-  transition-delay: 0.5s;
-}
+
 /* Start header */
 
 .header {
