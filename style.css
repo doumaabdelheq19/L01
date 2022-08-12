@@ -3,9 +3,7 @@
 .header {
   background-color: white;
   position: relative;
-  -webkit-box-shadow: 0 0 10px #ddd;
-  -moz-box-shadow: 0 0 10px #ddd;
-  box-shadow: 0 0 10px #ddd;
+  
 }
 .header .container {
   display: flex;
@@ -272,10 +270,8 @@
   
   background: #e0e0e0;
   color: inherit;
-  -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-  -moz-box-shadow: 0 0 10px rgb(5, 5, 5);
-  box-shadow: 0 0 10px rgb(0, 0, 0);
-  height: 450px;
+
+  height: 420px;
 }
 #navbar .image .vart1{
 
@@ -288,9 +284,9 @@
 }
 
 #navbar .image .vart{
-  margin-top: -100px;
-  margin-left: -300px;
-  width: 1000px;
+  margin-top: 50px;
+  margin-left:100px;
+  width:250px;
   position: absolute;
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 2s infinite  alternate;
@@ -442,14 +438,53 @@
     position: relative;
   }
 }
-.LA {
+.LA h1{
   font-size: 120px;
-  padding-top: 5px;
-  text-shadow: 4px 4px 8px black;
+  padding-top: -5px;
+  color: black;
  
 }
 
 .abso{
   padding-top: 10px;
   align-items: center;
+}
+.nav-L{
+  background-color: #282A35;
+  height: 40px;
+}
+.nav-L .nav-L1{
+  display: flex;
+ margin-left: 350px;
+width: 800px;
+  
+
+}
+.nav-L .nav-L1 > li {
+  display: flex;
+}
+.nav-L .nav-L1 > li >a{
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  padding: auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:   42px;
+  position: relative;
+ 
+ 
+  transition: var(--main-transition);
+  overflow: hidden;
+}
+.nav-L .nav-L1 > li >a:hover{
+  background-color: black;
+}
+.nav-L .nav-L1 i{
+  color: white;
+  font-size: 28px;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
